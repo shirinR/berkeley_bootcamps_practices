@@ -1,4 +1,4 @@
-# ucb_bootcamps_assignment1
+# ucb_bootcamps_practices
 
 
 hey, nice to meet you girl
