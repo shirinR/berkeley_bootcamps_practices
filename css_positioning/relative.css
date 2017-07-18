@@ -1,0 +1,28 @@
+/**
+* Relative default positioning
+**/
+
+.box-set{
+  background-color: #eaeaed;
+}
+
+.box{
+  background-color: #2db34a;
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+
+.box1{
+  top:60px;
+}
+ .box2{
+   left:40px;
+   border:1px solid black;
+ }
+
+ .box3{
+   bottom: -90px;
+   right: 20px;
+   border:1px solid black;
+ }

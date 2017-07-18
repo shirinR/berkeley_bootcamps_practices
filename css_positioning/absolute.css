@@ -1,0 +1,38 @@
+/**
+* Absolute default positioning
+**/
+
+.box-set{
+  background-color: #eaeaed;
+}
+
+.box{
+  background-color: #2db34a;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}
+
+/** percentages define the anchors **/
+
+.box1{
+  top:6%;
+  left:10%;
+}
+ .box2{
+   left:-40px;
+   border:1px solid black;
+   top: -2%;
+ }
+
+ .box3{
+   bottom: -9%;
+   right: 20px;
+   border:1px solid black;
+ }
+
+ .box4{
+   bottom: 5%;
+   right: 2%;
+   border:1px solid black;
+ }

@@ -1,0 +1,32 @@
+/**
+* Fixed default positioning: it will
+stay in same place even if we change page size
+**/
+
+.box{
+  background-color: #2db34a;
+  height: 80px;
+  width: 80px;
+  position: fixed;
+}
+
+.box1{
+  top:6%;
+  left:10%;
+}
+ .box2{
+   left:-40px;
+   border:1px solid black;
+   top: -2%;
+ }
+
+ .box3{
+   bottom: -9%;
+   right: 20px;
+ }
+
+ .box4{
+   bottom: 5%;
+   right: 2%;
+   border:1px solid black;
+ }

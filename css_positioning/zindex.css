@@ -1,0 +1,41 @@
+/**
+* Zindex default positioning
+**/
+
+.box-set{
+  background-color: #eaeaed;
+  height:250px;
+  position:relative;
+}
+
+.box{
+  background-color: #2db34a;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+}
+
+.box1{
+  top:6%;
+  left:10%;
+  z-index:3;
+}
+ .box2{
+   left:-40px;
+   border:1px solid black;
+   top: -2%;
+   z-index: 5;
+ }
+
+ .box3{
+   bottom: -9%;
+   right: 20px;
+   border:1px solid black;
+   z-index: 2;
+ }
+
+ .box4{
+   bottom: 5%;
+   right: 2%;
+   border:1px solid black;
+ }
